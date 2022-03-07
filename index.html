@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container py-4">
+      <h1 class="text-center fw-bold">六角西餐廳</h1>
+      <form
+        action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdN0M30GB6NSQxfeAhWK0B4PSpuIPGVLnoWo4TrksqtkeKtRA/formResponse"
+        method="POST"
+      >
+        <div class="row">
+          <div class="col-12 col-sm-6">
+            <div class="mb-3">
+              <label for="name" class="form-label">姓名</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="entry.104959259"
+              />
+            </div>
+          </div>
+          <div class="col-12 col-sm-6">
+            <div class="mb-3">
+              <label for="number" class="form-label">電話</label>
+              <input
+                type="number"
+                class="form-control"
+                id="number"
+                name="entry.403616441"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="date" class="form-label">日期</label>
+          <input
+            type="date"
+            class="form-control"
+            id="date"
+            name="entry.650799372"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">用餐人數</label>
+          <select class="form-select" name="entry.1491692660">
+            <!-- <option selected></option> -->
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="name" class="form-label">其他項目</label>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="child"
+              name="entry.901461210"
+            />
+            <label class="form-check-label" for="child"> 需要兒童座椅 </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="vegan"
+              name="entry.901461210"
+            />
+            <label class="form-check-label" for="vegan"> 素食餐點 </label>
+          </div>
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              value=""
+              id="cigar"
+              name="entry.901461210"
+            />
+            <label class="form-check-label" for="cigar"> 吸煙區 </label>
+          </div>
+        </div>
+        <input
+          type="submit"
+          value="送出"
+          class="btn btn-dark w-100 rounded-0"
+        />
+      </form>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</html>
